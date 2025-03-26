@@ -9,4 +9,4 @@ Der auftrag Mini-Projekt verlangt, dass wir einen Webserver mit einer einfachen 
 3. index.html erstellen und in /public-html abspeichern
 4. Image erstellen mit Docker build -t "Dockerfile"
 5. Lokales Verzeichnis für Logs erstellen
-6. 
+6. Container laufen lassen: docker run -d -p 8080:80 -v /home/vmadmin/meinapache-projekt/logs:usr/local/apache2/logs -v /home/vmadmin/public- html:/usr/local/apache2/htdocs --name mein webserver httpd
